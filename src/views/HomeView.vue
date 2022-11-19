@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <button v-on:click="recognize">recognize</button>
+    <v-btn @click="recognize" color="primary" class="mb-5">Recognize</v-btn>
     <div class="container">
       <img
         id="text-img"
@@ -9,11 +9,13 @@
         height="600"
         src="../assets/bitcoin.jpg"
       />
-      <div class="test"></div>
 
-      <canvas id="testCanvas" width="200" height="40" class="elevation-4" />
+      <!-- <canvas id="testCanvas" width="200" height="40" class="elevation-4" /> -->
     </div>
-    <p>{{ result }}</p>
+    <h1>
+      Stock Code:
+      <span class="font-weight-light primary--text">{{ result }}</span>
+    </h1>
   </div>
 </template>
 
