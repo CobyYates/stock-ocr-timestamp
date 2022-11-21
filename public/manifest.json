@@ -1,0 +1,11 @@
+{
+  "name": "YouTube Timestamp Creator",
+  "version": "1.0.0",
+  "description": "Grab stock code and timestamp",
+  "manifest_version": 3,
+  "author": "Coby Yates",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "YouTube Timestamp Creator"
+  }
+}
